@@ -175,4 +175,8 @@ footer{
     color: var(--inputColor);
 }
 
+.footer-section ul li{
+    cursor: pointer;
+}
+
 /*footer end*/
