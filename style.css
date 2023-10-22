@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 
@@ -65,7 +64,7 @@ body {
     color: var(--firstColor);
 }
 
-li:nth-child(4):hover {
+.right ul li:nth-child(4):hover {
     background-color: var(--inputColor);
 
 }
@@ -239,5 +238,41 @@ footer {
 /*about end*/
 
 /*contact start*/
+.contact_content{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   
+}
+.contact_content form{
+   max-width: 400px;
+    margin: 0 auto;
+}
 
+.contact_content label, input, textarea {
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+.contact_content  input, textarea {
+padding: 5px 50px;
+}
+
+.contact_content button{
+    padding: 10px 30px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: var(--firstColor);
+    border-radius: 20px;
+
+}
+
+.adress h2{
+    font-weight: 600;
+}
 /*contact end*/
